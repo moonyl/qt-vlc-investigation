@@ -25,4 +25,4 @@ void SimplePlayer::openUrl()
 }
 
 ```
-명령으로 넘길 때는 `--live-caching=100` 과 같이 하지만, 옵션으로 설정할 때는 -- 대신 : 을 이용한다. 즉, `:network-caching=100` 과 같이 된다.
+명령으로 넘길 때는 `--live-caching=100` 과 같이 하지만, 옵션으로 설정할 때는 `--` 대신 `:` 을 이용한다. 즉, `:network-caching=100` 과 같이 된다.
