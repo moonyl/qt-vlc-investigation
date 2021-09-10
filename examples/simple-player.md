@@ -1,5 +1,5 @@
 ## 미디어 옵션 변경하기
-VlcMedia 클래스의 메소드 중에 setOption 함수를 이용하면 vlc 를 실행할 때 옵션을 주듯이, 옵션을 조정할 수 있다
+VlcMedia 클래스의 메소드 중에 setOption 함수를 이용하면 vlc 를 실행할 때 명령에 옵션을 주듯이, 설정을 조정할 수 있다
 
 ### 네트워크 캐싱 수정하기
 [VLC command line](https://wiki.videolan.org/VLC_command-line_help/) 을 참조하면, `--live-caching=<integer [0 .. 60000]>` 이라는 옵션을 찾을 수 있다. 
