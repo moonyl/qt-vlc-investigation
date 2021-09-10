@@ -73,3 +73,5 @@ cmake .. -G"Visual Studio 15 2017 Win64" -DCMAKE_BUILD_TYPE=Debug ^
 
 정상적으로 실행이 되었다면 simple-player.sln 파일이 생성되었을 것이다. `cmake --build` 명령을 통해서 빌드를 해도 되겠지만, 여기서부터는 분석 및 디버깅 작업을 진행할 것이므로, visual studio로 오픈해서 빌드한다.
 
+exmaples를 분석하면서 알게 된 내용은 아래에서 정리한다.
+* [미디어 옵션 변경하기](https://github.com/moonyl/qt-vlc-investigation/blob/main/examples/simple-player.md)
